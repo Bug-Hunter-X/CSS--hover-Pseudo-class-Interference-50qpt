@@ -1,0 +1,19 @@
+The following CSS code demonstrates a solution to the problem. By using a more specific selector such as `.parent:hover`, the issue can be resolved.  The parent's hover will now function as expected even when the child element is hovered over.
+```css
+.parent {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.parent:hover {
+  background-color: lightblue; 
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: darkblue;
+}
+```
